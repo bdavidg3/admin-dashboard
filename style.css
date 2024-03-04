@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: #e7e7e7;
+}
+
 .sidebar{
     position: fixed;
     height: 100%;
@@ -21,11 +25,17 @@
     margin-left: 13vw;
     display:grid;
     grid-template-columns: 3fr 1fr;
-    width: 100%;
 }
 
 main{
  grid-column:1/2;
+}
+
+header{
+    grid-column: 1/3;
+    background-color: white;
+    box-shadow: 0px 4px 3px #d2d2d2;
+    padding:10px 30px;
 }
 
 .side-logo{
@@ -62,7 +72,7 @@ nav{
     grid-template-columns: 6fr 1fr;
     height: 4rem;
     width: 100%;
-    padding: 20px;
+    padding: 0 40px;
     align-items: center;
 }
 
@@ -74,7 +84,7 @@ nav{
 .profile-bar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     text-align: right;
     font-weight: bold;
 }
@@ -87,7 +97,7 @@ nav{
 
 
 nav input{
-    width: 35rem;
+    width: 45vw;
     border:none;
     background-color:#e7e7e7;
     height: 1.5rem;
@@ -100,7 +110,51 @@ nav i{
     padding:0;
 }
 
-img{
+nav img{
     width:40px;
     border-radius: 40px;
+    margin-right: 5px;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-top: 1em;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.welcome img{
+    width:70px;
+    border-radius: 60px;
+    margin-right: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
+.buttons button{
+    width: 70px;
+    height: 2.3rem;
+    border-radius: 70px;
+    border: none;
+    background-color: #5555ff;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #151581;
+    transform:scale(1.15);
+    transition:0.15s ease-in-out;
 }
