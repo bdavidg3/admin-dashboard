@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!------------SIDEBAR------------>
     <div class="sidebar">
         <div class="side-logo">Dashboard</div>
         <ul class="side-nav">
@@ -25,7 +26,9 @@
         </div>
     </div>
 
+    <!------------MAIN CONTAINER------------>
     <div class="container">
+         <!------------HEADER------------>
         <header>
             <nav>
                 <div class="search-bar"><i class="fa-solid fa-magnifying-glass"></i><input type="text"></div>
@@ -43,17 +46,79 @@
                 </div>    
             </div>
         </header>
-
+         <!------------MAIN------------>
         <main>
-            <div class="projects">
-                <h3>Your Projects</h3>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+            <div class="left-content">
+                <div class="projects-title"><h3>Your Projects</h3></div>
+                <div class="projects">
+                    <div class="card">
+                        <h4>Project 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam molestias eligendi accusamus dolorem accusantium est commodi? Eveniet, iusto neque recusandae quo consectetur libero. Exercitationem officia cupiditate ipsam voluptates laudantium!</p>
+                    </div>
+                    <div class="card">
+                        <h4>Project 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam molestias eligendi accusamus dolorem accusantium est commodi? Eveniet, iusto neque recusandae quo consectetur libero. Exercitationem officia cupiditate ipsam voluptates laudantium!</p>
+                    </div>
+                    <div class="card">
+                        <h4>Project 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam molestias eligendi accusamus dolorem accusantium est commodi? Eveniet, iusto neque recusandae quo consectetur libero. Exercitationem officia cupiditate ipsam voluptates laudantium!</p>
+                    </div>
+                    <div class="card">
+                        <h4>Project 4</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam molestias eligendi accusamus dolorem accusantium est commodi? Eveniet, iusto neque recusandae quo consectetur libero. Exercitationem officia cupiditate ipsam voluptates laudantium!</p>
+                    </div>
+                </div>
             </div>
-            <div class="announcements"></div>
-            <div class="trend"></div>
+
+            <!-----------RIGHT-CONTENT------------>
+            <div class="right-content">
+                <div class="announcements-title"><h3>Announcements</h3></div>
+                <div class="announcements">
+                    
+                    <div class="announcements-card">
+                        <div>
+                        <h4>Site Maintenance</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, beatae quos porro necessitatibus</p>
+                        </div>
+                        <div>
+                        <h4>Community Share Day</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, beatae quos porro necessitatibus</p>
+                        </div>
+                        <div>
+                        <h4>Updated Privacy Policy</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, beatae quos porro necessitatibus</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="trend">
+                    <h3>Trending</h3>
+                    <div class="trend-card">
+                        <div>
+                            <img src="./images/naruto.jpeg" alt="">
+                            <span>
+                                <h4>@NarutoDev</h4>
+                                <p>Web Developer - Full Stack</p>
+                            </span>
+                        </div>
+
+                        <div>
+                            <img src="./images/vegeta.jpeg" alt="">
+                            <span>
+                                <h4>@KingVegeta</h4>
+                                <p>UX/UI Designer</p>
+                            </span>
+                        </div>
+
+                        <div>
+                            <img src="./images/luffy.jpeg" alt="">
+                            <span>
+                                <h4>@MonkeyDLuffy</h4>
+                                <p>Backend Developer</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
     <script src="https://kit.fontawesome.com/22b8b6614a.js" crossorigin="anonymous"></script>
